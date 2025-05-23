@@ -1,0 +1,18 @@
+# Epson Vision 配置文件
+
+# 模型配置
+model:
+  path: "./obb_exported.float.rknn"
+  target: "rk3588"
+
+# 日志配置
+logging:
+  level: "INFO"
+  save_path: "logs"
+  max_size: 10  # MB
+
+# 系统配置
+system:
+  debug: false
+  language: "zh_CN"
+  timezone: "Asia/Shanghai"
